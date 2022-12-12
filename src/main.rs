@@ -23,9 +23,9 @@ const WHITE: Color = [1.0; 4];
 
 const START_SIZE: [f64; 2] = [512.0, 384.0];
 
-const START_ROOM: &str = "src/assets/dungeon/door.png";
+const START_ROOM: &str = "src/assets/dungeon/Door.png";
 const RIGHT_TURN: &str = "src/assets/dungeon/rightTurn.png";
-const DEAD_END: &str = "src/assets/dungeon/deadend.png";
+const DEAD_END: &str = "src/assets/dungeon/DeadEnd.png";
 
 struct Room {
     width: f64,
